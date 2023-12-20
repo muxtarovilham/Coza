@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+* button {
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+header .word {
+  position: absolute;
+  top: 40%;
+  left: 14%;
+}
+header .word button {
+  width: 161px;
+  height: 46px;
+  border-radius: 21px;
+  background-color: #6c7ae0;
+  transition: background-color 0.4s ease;
+  color: white;
+  border: none;
+}
+header .word button:hover {
+  background-color: rgb(0, 0, 0);
+}
+header .word p {
+  font-size: 33px;
+}
+header .word h1 {
+  font-size: 66px;
+}
+header .imgz {
+  width: 100%;
+  height: 600px;
+}
+header .navz {
+  position: absolute;
+  top: 0%;
+  width: 90%;
+  gap: 21px;
+}
+header .navz ul {
+  gap: 33px;
+}
+header .navz ul a {
+  color: rgb(64, 64, 64);
+  transition: color 0.4s ease;
+  font-weight: 600;
+}
+header .navz ul a:hover {
+  color: #6c7ae0;
+}
+header .navz .i1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 40px;
+}
+header .navz .i1 #cartz {
+  position: relative;
+}
+header .navz .i1 #cartz #cars {
+  position: absolute;
+  top: -40%;
+  right: -77%;
+  color: white;
+  background-color: #6c7ae0;
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+main {
+  padding-top: 21px;
+  padding-bottom: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 40px;
+}
+main .aa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  width: 90%;
+}
+main .aa .dd1 {
+  width: 21%;
+  height: auto;
+}
+main #a2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  width: 90%;
+}
+main #a2 .dd1 {
+  width: 21%;
+  height: auto;
+}
+main #productz {
+  padding-top: 21px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+main #productz .divz {
+  width: 100%;
+}
+main .frm {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+main .frm form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 21px;
+  width: 66%;
+}
+main .frm form input {
+  width: 40%;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid gainsboro;
+  padding: 14px;
+}
+main .frm form button {
+  width: 40%;
+  height: 40px;
+  border-radius: 7px;
+  border: 1px solid gainsboro;
+  color: white;
+  background-color: #6c7ae0;
+  transition: background-color 0.4s ease;
+}
+main .frm form button:hover {
+  background-color: #222222;
+}
+main .sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  flex-direction: column;
+  gap: 21px;
+}
+main .sec1 button {
+  width: 133px;
+  height: 40px;
+  border-radius: 21px;
+  background-color: #000000;
+  transition: background-color 0.4s ease;
+  color: white;
+  border: none;
+}
+main .sec1 button:hover {
+  background-color: #6c7ae0;
+}
+main .sec1 #product {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 14px;
+  width: 90%;
+  height: 90%;
+  font-weight: 600;
+  color: rgb(157, 157, 157);
+  flex-wrap: wrap;
+}
+main .sec1 #product .boxs {
+  width: 21%;
+}
+main .sec1 #product .divz {
+  width: 100%;
+}
+main .sec1 #product .divz button {
+  width: 133px;
+  height: 40px;
+  border-radius: 21px;
+  background-color: #6c7ae0;
+  transition: background-color 0.4s ease;
+  color: white;
+  border: none;
+}
+main .sec1 #product .divz button:hover {
+  background-color: rgb(0, 0, 0);
+}
+main .sec1 #product .divz .divc {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .sec1 #product .divz .divc img {
+  width: 100%;
+  height: 100%;
+}
+main .sec1 #product .divz .divc i {
+  color: gray;
+  font-size: 33px;
+}
+main .sec1 #product .divz .divc i:hover {
+  color: #6c7ae0;
+}
+main .man {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  border: 1px solid gainsboro;
+}
+main img {
+  width: 100%;
+  height: 100%;
+}
+main .wrd {
+  position: absolute;
+  top: 14%;
+  left: 7%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 99px;
+  background-color: #222222;
+}
+footer p {
+  color: white;
+}
+footer .troy {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+footer .troy img {
+  width: 35px;
+  height: 23px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 800px) {
+  main .sec1 #product {
+    flex-direction: column;
+  }
+  main .sec1 #product .boxs {
+    width: 50%;
+  }
+}
